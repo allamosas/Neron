@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">Нерон</string>
+    <string name="neron">Нерон</string>
+    <string name="probarConexion">Проверка соединения</string>
+    <string name="eliminar">Удалять</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">Удаление файлов и каталогов</string>
+    <string name="sobreescrituraEspacioDisco">Перезапись дискового пространства</string>
+    <string name="eliminacionSobreescritura">Устранение Перезапись</string>
+    <string name="eliminando">Удаление файлов и каталогов ...</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">пароль</string>
+    <string name="aceptar">принимать</string>
+    <string name="cancelar">отменить</string>
+    <string name="probar">пробовать</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">Нажмите, чтобы получить доступ к приложению</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">настройки</string>
+    <string name="conexion">подключение</string>
+    <string name="direccionServidor">адрес сервера</string>
+    <string name="ip">адрес</string>
+    <string name="puerto">порт</string>
+    <string name="detallesDireccionServidor">Адрес компьютера, на котором установлен сервер приложений. IP или полное доменное имя.</string>
+    <string name="detallesIP">пример: 123.456.7.89 ó http://www.ejemplo.com</string>
+    <string name="ejemploIp">пример: 192.168.1.1</string>
+    <string name="ejemploPuerto">пример: 30500</string>
+    <string name="notificaciones">Уведомления</string>
+    <string name="notificacionPersistente">настойчивый уведомление</string>
+    <string name="notificacionDetalle">Уведомление Приоритет, с которым доступ к приложению</string>
+    <string name="min">не показывать</string>
+    <string name="max">мак</string>
+    <string name="ajustesguardados">сохраненные настройки</string>
+    <string name="direccionIncorrecta">Некорректное адрес сервера</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">Правое соединение</string>
+    <string name="conexionFallida">Не удалось установить соединение</string>
+    <string name="contrasenaIncorrecta">Неправильный пароль</string>
+    <string name="malaConexionODireccion">Проверьте подключение к Интернету \n адрес сервера</string>
+    <string name="conexionPerdida">Он потерял соединение с сервером</string>
+    <string name="datosCorruptos">Там были поврежденные данные</string>
+    <string name="timeout">Он превысил тайм-аут</string>
+    <string name="toastFallida">Сервер не отвечает. Пожалуйста, проверьте подключение к Интернету и повторите попытку</string>
+    <string name="toastContrasenaIncorrecta">Он ввел неверный пароль</string>
+    <string name="toastMalaConexionODireccion">Он не был найден на сервере. Пожалуйста, проверьте подключение к Интернету и адрес сервера они правильны</string>
+    <string name="toastCorruptos">Там были коррумпированы сервера данных. Убедитесь, что у вас есть хорошее соединение с Интернет</string>
+    <string name="toastConexionPerdida">Был перерыв в связи с сервером. Тем не менее, сервер будет продолжать процесс</string>
+    <string name="toastTimeout">Превышен тайм-аут сервера. Проверьте подключение и повторите попытку</string>
+    <string name="refused">Сервер отклонил соединение</string>
+    <string name="toastRefused">Соединение отклонено, достигнув предела неправильных паролей. Тестирование в рамках</string>
+    <string name="segundos">секунд</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">помощь</string>
+    <string name="primerosPasos">первые шаги</string>
+    <string name="direccionServidor1">Для установки адреса сервера необходимо перейти в раздел Настройки / Параметры сервера. \n\n Вы должны ввести либо IP-адрес вашего компьютера-сервера (может быть публичным или частным порядком) или полное доменное имя и порт прослушивания. \ Nin если направление общественности необходимо открыть порты, используемые приложением на маршрутизаторе. Nero использует по умолчанию 30500 порт.</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">Общедоступных IP-адресов постоянно меняются. Если у вас нет публичного домена может получить доступ к приложению, использующему полное доменное имя компьютера-сервера. \n\n No-IP представляет собой бесплатный сервис, который создает полное доменное имя для вашего компьютера и автоматически обновляет публичный IP-адрес, связанный с доменным именем.</string>
+    <string name="prioridad">приоритет</string>
+    <string name="prioridad1">Приложение позволяет получить быстрый доступ через постоянное уведомление из выпадающего меню вашего мобильного устройства. Такое уведомление может быть сконфигурирован в разделе Настройки / уведомления. \n\n А минимальное значение в этом разделе удалите постоянное уведомление. \n\n А значение, близкое к минимуму, что уведомление будет виден только тогда, когда отображается меню. всегда будет появляться последний \n\n Уведомление. \n\n А среднее значение будет отображать приложение с приоритетом рядом с другими приложениями.\n А максимальное значение сделает приложение всегда первым, который будет отображаться над остальными приложение.</string>
+    <string name="eliminacionYPrueba">Снятие и Проверка соединения </string>
+    <string name="eliminacion">ликвидация</string>
+    <string name="eliminacion1">После нажатия кнопки удаления пароля доступа кнопку на сервер приложений вам будет предложено. То есть, пароль установлен на сервер, чтобы получить доступ к приложению и просят удалить такие же. Этот пароль может быть изменен на сервере. \n\n After проверить сервер начнет удалять все выбранные файлы. После того, как все они стерты будут заполнены и свободного места на компьютере будет пустым, что вы не можете восстановить удаленную информацию. Бары Прогресс будет информировать процесс во все времена.</string>
+    <string name="prueba">Пров.соед</string>
+    <string name="prueba1">После нажатия на кнопку тестирования доступа Подключение пароля к приложению сервера вы спросили. \n Тhe отправляется на сервер и убедиться, что это правильно. Если у вас плохое соединение с помощью любого из двух, он будет пытаться сообщить максимально подробно, насколько это возможно.</string>
+</resources>

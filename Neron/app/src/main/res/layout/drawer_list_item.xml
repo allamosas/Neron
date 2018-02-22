@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingLeft="10dp">
+
+    <FrameLayout
+        android:layout_width="220dp"
+        android:layout_height="1dp"
+        android:background="#222"></FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imagen"
+            android:layout_margin="10dp"
+            android:padding="6dp" />
+
+        <com.example.andres.botonpanico.customViews.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/nombre"
+            android:textSize="20dp"
+            android:singleLine="false"
+            android:gravity="left|center_vertical"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

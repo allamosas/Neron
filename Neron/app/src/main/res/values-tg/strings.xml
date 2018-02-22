@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">Нерон</string>
+    <string name="neron">Нерон</string>
+    <string name="probarConexion">Пайвастшавӣ санҷиш</string>
+    <string name="eliminar">хориҷ</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">Ҳазфи Files ва Дастурҳо</string>
+    <string name="sobreescrituraEspacioDisco">Рӯиҳамнависии диск Фазои</string>
+    <string name="eliminacionSobreescritura">Бартарафсозии, рӯиҳамнависии</string>
+    <string name="eliminando">Бартарафсозии, рӯиҳамнависии</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">гузарвожа</string>
+    <string name="aceptar">қабул</string>
+    <string name="cancelar">бекор</string>
+    <string name="probar">кӯшиш</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">Сенсорӣ қобилияти дастрасӣ ба ариза</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">танзимоти</string>
+    <string name="conexion">пайвастшавӣ</string>
+    <string name="direccionServidor">Суроғаи сервер</string>
+    <string name="ip">суроғаи</string>
+    <string name="puerto">бандаргоҳ</string>
+    <string name="detallesDireccionServidor">Суроғаи компютер, ки ариза сервер коргузорӣ шудааст. IP ё FQDN.</string>
+    <string name="detallesIP">мисол: 123.456.7.89 o http://www.ejemplo.com</string>
+    <string name="ejemploIp">мисол: 192.168.1.1</string>
+    <string name="ejemploPuerto">мисол: 30500</string>
+    <string name="notificaciones">огоҳиҳои</string>
+    <string name="notificacionPersistente">огоҳинома доимӣ</string>
+    <string name="notificacionDetalle">Огоҳинома афзалиятнок, ки дастрасӣ ба ариза</string>
+    <string name="min">Оё нишон дода нашавадr</string>
+    <string name="max">мак</string>
+    <string name="ajustesguardados">танзимоти захира</string>
+    <string name="direccionIncorrecta">Суроғаи сервер нодуруст</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">Вобаста ба рост</string>
+    <string name="conexionFallida">Хатогӣ дар пайвастшавӣ</string>
+    <string name="contrasenaIncorrecta">гузарвожаи нодуруст</string>
+    <string name="malaConexionODireccion">Санҷед, пайвастшавӣ ба интернет худ \n ва суроғаи сервер</string>
+    <string name="conexionPerdida">Он пайвастшавиро ба сервер даст</string>
+    <string name="datosCorruptos">Маълумоти вуҷуд доранд</string>
+    <string name="timeout">Ин зиёд дорад оғозёбӣ</string>
+    <string name="toastFallida">Сервер ҷавоб аст, нест. Лутфан, пайвастшавӣ ба Интернет шумо санҷет ва аз нав кӯшиш кунед</string>
+    <string name="toastContrasenaIncorrecta">Он даромада як гузарвожаи нодуруст</string>
+    <string name="toastMalaConexionODireccion">Он шудааст, ки ба сервер ёфт нашуд. Лутфан, пайвастшавӣ ба интернет худ ва суроғаи сервер, санҷед ки онҳо дуруст аст</string>
+    <string name="toastCorruptos">Сервер маълумоти вуҷуд доранд. Боварӣ ҳосил кунед, ки шумо пайвастшавии интернет хуб</string>
+    <string name="toastConexionPerdida">Буд, аз танаффуси дар робита бо сервер нест. Бо вуҷуди ин, сервер раванди идома хоҳад дод</string>
+    <string name="toastTimeout">Сервер итмоми зиёд аст. Ба пайвастшавии шумо санҷет ва аз нав кӯшиш кунед</string>
+    <string name="refused">Сервер пайвасти рад</string>
+    <string name="toastRefused">Пайвастшавӣ рад аз ҷониби расидан ба лимити нишонаҳо нодуруст. Санҷиши дар доираи</string>
+    <string name="segundos">сония</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">кӯмак мекунад</string>
+    <string name="primerosPasos">Қадамҳои аввал</string>
+    <string name="direccionServidor1">Барои танзими суроғаи сервер, ки шумо бояд ба Танзимотҳо фасли / Танзимот Server рафта. \n\n You бояд суроғаи IP-сервер компютери худро нависед ё (метавонад оммавӣ ё хусусӣ) ё FQDN ва гӯш бандари. \n In агар самти зарурати давлатӣ барои кушодани бандарҳои истифода ариза оид ба роутер аст. Нерон мебарад 30500 сурати пешфарз бандари.</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">Нишониҳои IP ҷамъиятӣ мунтазам тағйир меёбад. Агар шумо як домени ҷамъиятӣ метавонед барномаи истифода аз FQDN компютер сервер дастрасӣ надоранд. \n\n NO-IP аст, хадамоти озод, ки эҷод FQDN барои компютери шумо ва ба таври автоматикӣ нав ба суроғаи IP давлат алоқаманд аст, ки бо FQDN.</string>
+    <string name="prioridad">афзалиятнок</string>
+    <string name="prioridad1">Дар ариза имкон медиҳад, зуд ба воситаи огоҳинома доимӣ аз менюи dropdown дастгоҳи мобилии шумо. Ин огоҳинома мумкин аст, дар ин фасли Танзимотҳо / огоҳӣ танзим карда. \ Арзиши ҳадди ақали м \ ОИ дар ин боб хориҷ огоҳинома доимии. \n\n Арзиши наздик ба ҳадди ақал, ки огоҳонии дидорӣ танҳо агар меню намоиш хоҳад буд. \n\n Дар огоњнома ҳамеша пайдо хоҳад кард. \n\n о арзиши миёнаи ОИ хоҳад ариза бо афзалияти наздик ба барномаҳои дигар намоиш ОИ Арзиши ниҳоии хоҳад барнома ҳамеша аввал. ба боло дигарон нишон дода шавад барнома.</string>
+    <string name="eliminacionYPrueba">Рафъ ва Пайвастшавӣ Санҷиши</string>
+    <string name="eliminacion">бартараф</string>
+    <string name="eliminacion1">Баъд аз пахшкунии пароли дастрасии тугмаи Нобудкунӣ, ба сервери ариза ба шумо дархост карда мешавад. аст, ки бошад, гузарвожа ба сервери танзим дастрасӣ ба ариза ва хоҳиш мекунанд, ки ба хориҷ як хел аст. Ин рамз мумкин аст дар сервер тағйир ёфт. \n\n After тафтиш карда коргузори оғоз хоҳад кард, ба ҷуз бо тозакунии ҳамаи файлҳои интихобшуда. Вақте ки ҳамаи онҳо ҳифзшуда тоза мешаванд пур ва фазои мавҷуд дар компютер холӣ барои ки шумо метавонед маълумот тоза ебанд нахоҳад буд. Барҳои Пешравӣ хоҳад раванди дар ҳама давру замон хабардор менамояд.</string>
+    <string name="prueba">Санҷиши пайвастшавӣ</string>
+    <string name="prueba1">Баъд аз пахшкунии тугмаи санҷиши дастрасӣ парол пайвастшавӣ ба барномаи сервер ба шумо пурсиданд. \n The ба сервер фиристода ва тасдиқ намудани он ки он дуруст аст. Агар шумо пайвастшавии бад ба воситаи яке аз он ду, ки кӯшиш хоҳад кард, хабар муфассал қадри имкон.</string>
+</resources>

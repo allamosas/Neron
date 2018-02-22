@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">Nero</string>
+    <string name="neron">Nero</string>
+    <string name="probarConexion">Test Connection</string>
+    <string name="eliminar">Ukususa</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">Ukususa Amafayela Ezinye</string>
+    <string name="sobreescrituraEspacioDisco">Ngaphezulu Disk Space</string>
+    <string name="eliminacionSobreescritura">Ukuqedwa ngaphezulu</string>
+    <string name="eliminando">Ukususa amafayela kanye amalayelo ...</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">Iphasiwedi</string>
+    <string name="aceptar">Ukwamukela</string>
+    <string name="cancelar">Khansela</string>
+    <string name="probar">Zama</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">Thinta ukuze ufinyelele isicelo</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">Izilungiselelo</string>
+    <string name="conexion">Uxhumano</string>
+    <string name="direccionServidor">Ikheli likanolwazi</string>
+    <string name="ip">Ikheli</string>
+    <string name="puerto">Imbobo</string>
+    <string name="detallesDireccionServidor">Ikheli le-computer ngalo isicelo iseva efakwe. IP noma FQDN.</string>
+    <string name="detallesIP">Isibonelo: 123.456.7.89 ó http://www.ejemplo.com</string>
+    <string name="ejemploIp">Isibonelo: 192.168.1.1</string>
+    <string name="ejemploPuerto">Isibonelo: 30500</string>
+    <string name="notificaciones">Izaziso</string>
+    <string name="notificacionPersistente">Ngesaziso esiqhubekayo</string>
+    <string name="notificacionDetalle">Isaziso Priority ngazo ukufinyelela isicelo</string>
+    <string name="min">Musa ukukhombisa</string>
+    <string name="max">Esiphezulu</string>
+    <string name="ajustesguardados">Izilungiselelo usindiswe</string>
+    <string name="direccionIncorrecta">Ikheli leseva engafanelanga</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">Uxhumano Right</string>
+    <string name="conexionFallida">Uxhumano Yehlulekile</string>
+    <string name="contrasenaIncorrecta">Iphasiwedi engalungile</string>
+    <string name="malaConexionODireccion">Hlola internet uxhumano lwakho \n kanye nekheli leseva</string>
+    <string name="conexionPerdida">It ilahlekelwe uxhumano kwiseva</string>
+    <string name="datosCorruptos">Sekube onakalise ukwaziswa</string>
+    <string name="timeout">It kweqe sokuvala</string>
+    <string name="toastFallida">Eish! Iseva ye ayiphenduli. Sicela uhlole uxhumano lwakho lwe-Inthanethi bese uzama futhi</string>
+    <string name="toastContrasenaIncorrecta">Kuye Ufake iphasiwedi ayilungile</string>
+    <string name="toastMalaConexionODireccion">Kuye akubanga kwiseva. Sicela uhlole internet lwakho uxhumano kanye nekheli leseva baqinisile</string>
+    <string name="toastCorruptos">Se han recibido datos corruptos del servidor. Asegúrate de tener una buena conexion a Internet</string>
+    <string name="toastConexionPerdida">Sekube elonakele iseva idatha. Qiniseka ukuthi une-inthanethi olukahle</string>
+    <string name="toastTimeout">Weqe sokuvala iseva. Hlola uxhumano lwakho uphinde uzame futhi</string>
+    <string name="refused">Iseva ye-inqabe uxhumano</string>
+    <string name="toastRefused">Connection wenqaba ngokuzama ukufinyelela umkhawulo samaphasiwedi ngalungile. Test ngaphakathi</string>
+    <string name="segundos">imizuzwana</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">Ukusiza</string>
+    <string name="primerosPasos">Izinyathelo zokuqala</string>
+    <string name="direccionServidor1">Ukusetha ikheli leseva kufanele uye esigabeni Izilungiselelo / Amasethingi Server. \n\n Kumele ufake noma ikheli le-IP computer iseva yakho (kungaba wahulumende nobe wangasese) noma FQDN nokulalela port. \n In uma isiqondiso kunendingeko zomphakathi ukuvula emachwebeni olusetshenziswa isicelo kwi-router. UNero isebenzisa ezizenzakalelayo port 30500.</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">Public amakheli IP kushintsha njalo. Uma ungenalo domain yomphakathi angafinyelela isicelo besebenzisa FQDN computer iseva. \n\n NO-IP iyisevisi free ukuba kwakha FQDN yekhompyutha yakho bese ngokuzenzakalelayo ilungisa ikheli lasesizindeni se-intanethi umphakathi ezihlobene ne FQDN.</string>
+    <string name="prioridad">Kambaphambili</string>
+    <string name="prioridad1">Isicelo uvumela ukufinyelela okusheshayo ngokusebenzisa isaziso yokuchukuluzwa imenyu okwehliswayo of kudivayisi yakho yeselula. Lesi saziso singathunyelwa amisiwe esigabeni Isethaphu / Isaziso. \n\n A ubuncane value kulesi sigaba ukususa isaziso esiphikelelayo. \n\n A value close ubuncane ukuthi isaziso kuzobonakala uma imenyu ibonakala. \n The last isaziso uyohlale avele. \n\n A value isilinganiso izoveza isicelo nge kuyintfo lesembili close kwezinye izihlelo zokusebenza. Na esiphezulu value uyokwenza isicelo njalo ngowokuqala ukuboniswa ngaphezu kwabo bonke abanye isicelo.</string>
+    <string name="eliminacionYPrueba">Ukususwa kanye Connection Test</string>
+    <string name="eliminacion">Ukuqedwa</string>
+    <string name="eliminacion1">Emva ngokucindezela Susa ukufinyelela inkinobho iphasiwedi ukuze iseva isicelo uzocelwa. Okungukuthi, iphasiwedi isethwe ku-server ukufinyelela isicelo futhi wacela ukuba asuse ziyafana. Lokhu iphasiwedi kungashintshwa on the server. \n\n Ngemuva iqinisekiswe iseva uzoqala isula wonke amafayela akhethiwe. Ngaphambili they are bonke swe uyogcwala futhi isikhala kuyatholakala kwi computer ngeke sibe nalutho ngoba lokho awukwazi alulame ulwazi asusiwe. Intuthuko Endleleni Okwakuhlelwa Ngayo imigoqo uzokwazisa inqubo ngaso sonke isikhathi.</string>
+    <string name="prueba">Uxhumano lokuhlola</string>
+    <string name="prueba1">Emva ngokucindezela inkinobho yokuhlola iphasiwedi uxhumano ukufinyelela isicelo iseva ucelwa. \n Ithimba uthunyelwa iseva futhi uqinisekise ukuthi lilungile. Uma une uxhumano elibi yimuphi kulaba ababili, it uzozama ukwazisa imininingwane ngangokunokwenzeka.</string>
+</resources>

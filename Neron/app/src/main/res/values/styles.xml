@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorControlActivated">#ce3b29</item>
+        <item name="colorControlHighlight">#ce3b29</item>
+        <item name="colorControlNormal">#777</item>
+        <!--<item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>-->
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+
+</resources>

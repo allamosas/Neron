@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">Nero</string>
+    <string name="neron">Nero</string>
+    <string name="probarConexion">Test Connection</string>
+    <string name="eliminar">Remove</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">Deleting Files and Directories</string>
+    <string name="sobreescrituraEspacioDisco">Overwriting Disk Space</string>
+    <string name="eliminacionSobreescritura">Overwriting Removal</string>
+    <string name="eliminando">Deleting files and directories ...</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">Password</string>
+    <string name="aceptar">Accept</string>
+    <string name="cancelar">Cancel</string>
+    <string name="probar">Test</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">Touch to access the application</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">Settings</string>
+    <string name="conexion">Connection</string>
+    <string name="direccionServidor">Server address</string>
+    <string name="ip">Address</string>
+    <string name="puerto">Harbor</string>
+    <string name="detallesDireccionServidor">Address of the computer on which the server application is installed. IP or FQDN.</string>
+    <string name="detallesIP">Ex: 123.456.7.89 or http://www.ejemplo.com</string>
+    <string name="ejemploIp">Example: 192.168.1.1</string>
+    <string name="ejemploPuerto">Example: 30500</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="notificacionPersistente">Persistent notification</string>
+    <string name="notificacionDetalle">Priority notification with which access the application</string>
+    <string name="min">Not show</string>
+    <string name="max">Max</string>
+    <string name="ajustesguardados">Settings saved</string>
+    <string name="direccionIncorrecta">Incorrect server address</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">Connection Successfull</string>
+    <string name="conexionFallida">Connection Failed</string>
+    <string name="contrasenaIncorrecta">Wrong Password</string>
+    <string name="malaConexionODireccion">Check your internet connection \n and the server address</string>
+    <string name="conexionPerdida">There has lost the connection to the server</string>
+    <string name="datosCorruptos">There have been corrupt data</string>
+    <string name="timeout">There has exceeded the timeout</string>
+    <string name="toastFallida">Oops! The server is not responding. Please check your Internet connection and try again</string>
+    <string name="toastContrasenaIncorrecta">There has entered an incorrect password</string>
+    <string name="toastMalaConexionODireccion">There has not been found to the server. Please check your internet connection and the server address they are correct</string>
+    <string name="toastCorruptos">There have been corrupt data server. Make sure you have a good Internet connection</string>
+    <string name="toastConexionPerdida">There was a break in communication with the server. Still, the server will continue the process</string>
+    <string name="toastTimeout">Exceeded timeout server. Check your connection and try again</string>
+    <string name="refused">The server rejected the connection</string>
+    <string name="toastRefused">Connection refused by reaching the limit of incorrect passwords. Test within</string>
+    <string name="segundos">seconds</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">Help</string>
+    <string name="primerosPasos">First steps</string>
+    <string name="direccionServidor1">To set the server address you must go to section Settings / Server Settings. \n\n You must enter either the IP address of your server computer (can be public or private) or the FQDN and listening port. \n In if the direction is public need to open the ports used by the application on the router. Nero uses default port 30500.</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">Public IP addresses are constantly changing. If you do not have a public domain can access the application using the FQDN of the server computer. \n\n NO-IP is a free service that creates a FQDN for your computer and automatically updates the public IP address associated with the FQDN.</string>
+    <string name="prioridad">Priority</string>
+    <string name="prioridad1">The application allows quick access through a persistent notification from the dropdown menu of your mobile device. This notification can be configured in the Settings / Notification section. \n\n A minimum value in this section remove the persistent notification. \n\n A value close to the minimum that the notification will be visible only if the menu is displayed. the last \n\n The notification will always appear. \n\n A average value will display the application with a priority close to other applications. \n A maximum value will make the application always the first to be displayed above the rest application.</string>
+    <string name="eliminacionYPrueba">Removal and Connection Test</string>
+    <string name="eliminacion">Removal</string>
+    <string name="eliminacion1">After pressing the delete button access password to the application server you will be asked. That is, the password is set to the server to access the application and is asked to remove are the same. This password can be changed on the server. \n\n After be verified the server will start deleting all selected files. Once they are all erased will be filled and available space on the computer will be empty for that you can not recover deleted information. Progress bars will inform the process at all times.</string>
+    <string name="prueba">Connection Test</string>
+    <string name="prueba1">After pressing the test button connection password access to the server application you are asked. \n The sent to the server and verify that it is correct. If you have a bad connection by any of the two, it will try to inform as much detail as possible</string>
+</resources>

@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">Nero</string>
+    <string name="neron">Nero</string>
+    <string name="probarConexion">Test-Verbindung</string>
+    <string name="eliminar">Entfernen</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">Das Löschen von Dateien und Verzeichnissen</string>
+    <string name="sobreescrituraEspacioDisco">Überschreiben von Festplattenspeicher</string>
+    <string name="eliminacionSobreescritura">Beseitigung der Überschreibung</string>
+    <string name="eliminando">Das Löschen von Dateien und Verzeichnissen ...</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">Kennwort</string>
+    <string name="aceptar">Akzeptieren</string>
+    <string name="cancelar">Stornieren</string>
+    <string name="probar">Versuchen</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">Tippen Sie auf die Anwendung zugreifen</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">Einstellungen</string>
+    <string name="conexion">Verbindung</string>
+    <string name="direccionServidor">Server-Adresse</string>
+    <string name="ip">Adresse</string>
+    <string name="puerto">Port</string>
+    <string name="detallesDireccionServidor">Adresse des Computers, auf dem der Server-Anwendung installiert ist. IP oder FQDN.</string>
+    <string name="detallesIP">Beispiel: 123.456.7.89 oder http://www.ejemplo.com</string>
+    <string name="ejemploIp">Beispiel: 192.168.1.1</string>
+    <string name="ejemploPuerto">Beispiel: 30500</string>
+    <string name="notificaciones">Benachrichtigungen</string>
+    <string name="notificacionPersistente">Persistent Benachrichtigung</string>
+    <string name="notificacionDetalle">Priority-Benachrichtigung, mit der auf die Anwendung zugreifen</string>
+    <string name="min">Nicht anzeigen</string>
+    <string name="max">Max</string>
+    <string name="ajustesguardados">Gespeicherten Einstellungen</string>
+    <string name="direccionIncorrecta">Falsche Serveradresse</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">Rechts-Verbindung</string>
+    <string name="conexionFallida">Verbindung fehlgeschlagen</string>
+    <string name="contrasenaIncorrecta">Falsches Passwort</string>
+    <string name="malaConexionODireccion">Überprüfen Sie Ihre Internetverbindung \n und die Serveradresse</string>
+    <string name="conexionPerdida">Er hat die Verbindung zum Server verloren</string>
+    <string name="datosCorruptos">Es wurden beschädigte Daten gewesen</string>
+    <string name="timeout">Es hat das Timeout überschritten</string>
+    <string name="toastFallida">Oops! Der Server antwortet nicht. Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut</string>
+    <string name="toastContrasenaIncorrecta">Es wurde ein falsches Passwort eingegeben</string>
+    <string name="toastMalaConexionODireccion">Es wurde nicht auf dem Server gefunden. Bitte überprüfen Sie Ihre Internetverbindung und die Server-Adresse sie korrekt sind</string>
+    <string name="toastCorruptos">Es wurden beschädigte Daten-Server gewesen. Stellen Sie sicher, dass Sie eine gute Internet-Verbindung haben</string>
+    <string name="toastConexionPerdida">Es war ein Bruch in der Kommunikation mit dem Server. Dennoch wird der Server den Prozess fortsetzen</string>
+    <string name="toastTimeout">Überschritten Timeout-Server. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut</string>
+    <string name="refused">Der Server hat die Verbindung</string>
+    <string name="toastRefused">Verbindung verweigert durch die Grenze der falsche Passwörter zu erreichen. Test innerhalb von</string>
+    <string name="segundos">sekunden</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">Hilfe</string>
+    <string name="primerosPasos">Erste Schritte</string>
+    <string name="direccionServidor1">Um die Server-Adresse einstellen, dass Sie Abschnitt Einstellungen / Server-Einstellungen gehen. \n\n Sie müssen Sie entweder die IP-Adresse Ihres Server-Computer (kann öffentlich oder privat sein) oder der FQDN und Listening-Port. \n\n In wenn die Richtung der öffentlichen Notwendigkeit, die Häfen von der Anwendung auf dem Router verwendet öffnen. Nero verwendet Standard-Port 30500.</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">Öffentliche IP-Adressen ändern sich ständig. Wenn Sie nicht über eine öffentliche Domäne können die Anwendung Zugriff auf den FQDN des Servers Computer. \n\n NO-IP ist ein kostenloser Dienst, der einen FQDN für Ihren Computer erstellt und aktualisiert automatisch die öffentliche IP-Adresse mit dem FQDN zugeordnet ist.</string>
+    <string name="prioridad">Priorität</string>
+    <string name="prioridad1">Die Anwendung ermöglicht einen schnellen Zugriff durch eine persistente Benachrichtigung aus dem Dropdown-Menü Ihres mobilen Geräts. Diese Mitteilung kann in den Einstellungen / Abschnitt Benachrichtigung konfiguriert werden. \n\n nA Minimalwert in diesem Abschnitt die persistente Benachrichtigung zu entfernen. \n\n A Wert nahe dem Minimum, dass die Anmeldung sichtbar sein wird, nur dann, wenn das Menü angezeigt wird. der letzte \n\n Die Meldung wird immer angezeigt. \n\n nA Mittelwert wird mit einer Priorität der Nähe von anderen Anwendungen, die die Anwendung anzuzeigen. maximal nA Wert wird die Anwendung immer die erste machen über dem Rest angezeigt werden Anwendung.</string>
+    <string name="eliminacionYPrueba">Die Abnahme und die Verbindungstest</string>
+    <string name="eliminacion">Beseitigung</string>
+    <string name="eliminacion1">Auf die Schaltfläche Löschen Zugangspasswort für den Anwendungsserver Nach dem Pressen werden Sie gefragt. Das heißt, wird das Passwort auf dem Server festgelegt auf die Anwendung zuzugreifen und aufgefordert wird, zu entfernen, die gleichen sind. Dieses Passwort kann auf dem Server geändert werden. \n\n Nach der Server alle ausgewählten Dateien zu löschen beginnt prüft werden. Sobald sie alle werden gelöscht gefüllt und verfügbaren Speicherplatz auf dem Computer für die leer sein, das Sie nicht gelöschte Daten wiederherstellen können. Fortschrittsbalken wird den Prozess jederzeit informieren.</string>
+    <string name="prueba">Verbindungstest</string>
+    <string name="prueba1">Nach dem Drücken der Test-Taste Verbindung Passwort Zugriff auf den Server Anwendung, die Sie gestellt werden. \n Die an den Server gesendet und stellen Sie sicher, dass es richtig ist. Wenn Sie eine schlechte Verbindung durch eine der beiden, wird es versuchen, so viele Details wie möglich zu informieren.</string>
+</resources>

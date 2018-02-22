@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<toc version="1.0">
+   <tocitem text="Help" target="principal">
+      <tocitem text="Tools Menu" target="herramientas"/>
+      <tocitem text="Options menu" target="opciones"/>
+      <tocitem text="Server Configuration" target="configuracion"/>
+   </tocitem>
+</toc>

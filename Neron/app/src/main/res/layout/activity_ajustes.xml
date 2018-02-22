@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".userInterface.Ajustes">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2a2a2a"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/activityRoot">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/linearLayout2"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:paddingTop="5dp"
+                android:focusable="false"
+                android:scrollIndicators="right"
+                android:focusableInTouchMode="false"
+                android:contextClickable="false"
+                android:clickable="false"
+                android:baselineAligned="false"
+                android:measureWithLargestChild="false">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/topScroll"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.example.andres.botonpanico.customViews.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/conexion"
+                        android:id="@+id/textView"
+                        android:textColor="@color/tituloAjustes"
+                        android:textSize="23dp" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/separadorAjustes"
+                        android:layout_marginBottom="10dp"></LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp">
+
+                        <com.example.andres.botonpanico.customViews.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/direccionServidor"
+                            android:id="@+id/textView14"
+                            android:textColor="@color/elementoAjustes"
+                            android:textSize="17dp" />
+
+                        <com.example.andres.botonpanico.customViews.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/detallesDireccionServidor"
+                            android:id="@+id/textView11"
+                            android:textColor="@color/detalleAjustes" />
+
+                        <com.example.andres.botonpanico.customViews.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/detallesIP"
+                            android:id="@+id/textView12"
+                            android:textColor="@color/detalleAjustes" />
+
+                        <TableLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:onClick="ajusteScroll">
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:baselineAligned="true">
+
+                                <com.example.andres.botonpanico.customViews.CustomTextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="@string/ip"
+                                    android:id="@+id/textView7"
+                                    android:textColor="@color/elementoAjustes"
+                                    android:layout_weight="1"
+                                    android:gravity="center_vertical"
+                                    android:textSize="17dp" />
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:id="@+id/txtIp"
+                                    android:textColor="#fff"
+                                    android:singleLine="true"
+                                    android:editable="false"
+                                    android:enabled="true"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:hint="@string/ejemploIp"
+                                    android:textColorHint="@color/hintAjustes"
+                                    android:inputType="textUri" />
+                            </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:focusable="true"
+                                android:focusableInTouchMode="true"
+                                android:baselineAligned="true">
+
+                                <com.example.andres.botonpanico.customViews.CustomTextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:textAppearance="?android:attr/textAppearanceMedium"
+                                    android:text="@string/puerto"
+                                    android:id="@+id/textView8"
+                                    android:textColor="@color/elementoAjustes"
+                                    android:gravity="center_vertical"
+                                    android:textSize="17dp"
+                                    android:layout_gravity="center_vertical|right"
+                                    android:layout_weight="1" />
+
+                                <EditText
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ems="10"
+                                    android:id="@+id/txtPuerto"
+                                    android:singleLine="true"
+                                    android:enabled="true"
+                                    android:textColor="#fff"
+                                    android:focusable="true"
+                                    android:focusableInTouchMode="true"
+                                    android:editable="false"
+                                    android:hint="@string/ejemploPuerto"
+                                    android:textColorHint="@color/hintAjustes"
+                                    android:allowUndo="false"
+                                    android:inputType="numberSigned" />
+
+                            </TableRow>
+
+                        </TableLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <com.example.andres.botonpanico.customViews.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="@string/notificaciones"
+                        android:id="@+id/textView9"
+                        android:textSize="23dp"
+                        android:singleLine="false"
+                        android:textColor="@color/tituloAjustes"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:focusable="false" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/separadorAjustes"
+                        android:layout_marginBottom="10dp" />
+
+                    <com.example.andres.botonpanico.customViews.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/notificacionPersistente"
+                        android:id="@+id/textView10"
+                        android:textColor="@color/elementoAjustes"
+                        android:textSize="17dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1" />
+
+                    <com.example.andres.botonpanico.customViews.CustomTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:text="@string/notificacionDetalle"
+                        android:id="@+id/textView13"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/detalleAjustes"
+                        android:layout_weight="1" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.example.andres.botonpanico.customViews.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="@string/min"
+                            android:id="@+id/txtMin"
+                            android:textColor="@color/detalleAjustes"
+                            android:gravity="center_horizontal|fill_vertical"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignBottom="@+id/sldPrioridad"
+                            android:layout_marginLeft="20dp" />
+
+                        <SeekBar
+                            android:layout_width="230dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/sldPrioridad"
+                            android:max="40"
+                            android:indeterminate="false"
+                            android:layout_alignParentTop="false"
+                            android:layout_toEndOf="@+id/txtMin"
+                            android:layout_toStartOf="@+id/txtMax"
+                            android:layout_alignWithParentIfMissing="false"
+                            android:layout_alignParentRight="false" />
+
+                        <com.example.andres.botonpanico.customViews.CustomTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="Max"
+                            android:id="@+id/txtMax"
+                            android:textColor="@color/detalleAjustes"
+                            android:gravity="fill_vertical"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignBottom="@+id/txtMin"
+                            android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/bottomScroll"></LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:layout_marginTop="60dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="true"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="8dp"
+                android:layout_gravity="bottom">
+
+                <com.example.andres.botonpanico.customViews.CustomButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancelar"
+                    android:id="@+id/btnCancelar"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:layout_marginRight="5dp"
+                    android:enabled="true"
+                    android:onClick="cancelarAjustes"
+                    android:textColor="@drawable/ajustes_button_text"
+                    android:background="@drawable/ajustes_button" />
+
+                <com.example.andres.botonpanico.customViews.CustomButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aceptar"
+                    android:id="@+id/btnAceptar"
+                    android:layout_weight="1"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="5dp"
+                    android:enabled="true"
+                    android:onClick="guardarAjustes"
+                    android:textColor="@drawable/ajustes_button_text"
+                    android:background="@drawable/ajustes_button" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="#1c1c1c">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/ic_drawer"
+                    android:onClick="abrirCerrarDrawer"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:layout_gravity="center_vertical" />
+
+                <com.example.andres.botonpanico.customViews.CustomTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/ajustes"
+                    android:id="@+id/textView6"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="#fff"
+                    android:textSize="26dp"
+                    android:capitalize="characters"
+                    android:layout_marginLeft="15dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:background="#2a2a2a" />
+</android.support.v4.widget.DrawerLayout>

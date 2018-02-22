@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">Nero</string>
+    <string name="neron">Nero</string>
+    <string name="probarConexion">Connexion de test</string>
+    <string name="eliminar">Supprimer</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">Suppression de fichiers et répertoires</string>
+    <string name="sobreescrituraEspacioDisco">Écrasement Espace disque</string>
+    <string name="eliminacionSobreescritura">Élimination de Écrasement</string>
+    <string name="eliminando">Suppression de fichiers et de répertoires ...</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">Mot de passe</string>
+    <string name="aceptar">Accepter</string>
+    <string name="cancelar">Annuler</string>
+    <string name="probar">Tester</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">Touchez pour accéder à l\'application</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">Réglages</string>
+    <string name="conexion">Connexion</string>
+    <string name="direccionServidor">Adresse du serveur</string>
+    <string name="ip">Adresse</string>
+    <string name="puerto">Port</string>
+    <string name="detallesDireccionServidor">L\'adresse de l\'ordinateur sur lequel l\'application serveur est installé. IP ou FQDN.</string>
+    <string name="detallesIP">Ex: 123.456.7.89 ou http://www.ejemplo.com</string>
+    <string name="ejemploIp">Exemple: 192.168.1.1</string>
+    <string name="ejemploPuerto">Exemple: 30500</string>
+    <string name="notificaciones">Notifications</string>
+    <string name="notificacionPersistente">Notification persistante</string>
+    <string name="notificacionDetalle">Notification de priorité avec laquelle l\'accès à l\'application</string>
+    <string name="min">Ne pas afficher</string>
+    <string name="max">Max</string>
+    <string name="ajustesguardados">Paramètres enregistrés</string>
+    <string name="direccionIncorrecta">Adresse du serveur incorrecte</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">Connexion droit</string>
+    <string name="conexionFallida">Échec de la connexion</string>
+    <string name="contrasenaIncorrecta">Mot de passe incorrect</string>
+    <string name="malaConexionODireccion">Vérifiez votre connexion Internet \n et l\'adresse du serveur</string>
+    <string name="conexionPerdida">Elle a perdu la connexion avec le serveur</string>
+    <string name="datosCorruptos">Il y a eu des données corrompues</string>
+    <string name="timeout">Il a dépassé le délai d\'attente</string>
+    <string name="toastFallida">Oops! Le serveur ne répond pas. S\'il vous plaît vérifier votre connexion Internet et essayez à nouveau</string>
+    <string name="toastContrasenaIncorrecta">Il est entré un mot de passe incorrect</string>
+    <string name="toastMalaConexionODireccion">Il n\'a pas été trouvé sur le serveur. S\'il vous plaît vérifier votre connexion Internet et l\'adresse du serveur, ils sont corrects</string>
+    <string name="toastCorruptos">Il y a eu serveur de données corrompues. Assurez-vous que vous avez une bonne connexion Internet</string>
+    <string name="toastConexionPerdida">Il y avait une rupture de communication avec le serveur. Pourtant, le serveur va continuer le processus</string>
+    <string name="toastTimeout">Serveur de délai dépassé. Vérifiez votre connexion et essayez à nouveau</string>
+    <string name="refused">Le serveur a rejeté la connexion</string>
+    <string name="toastRefused">Connexion refusée en atteignant la limite de mots de passe incorrects. test de l\'intérieur</string>
+    <string name="segundos">secondes</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">Aider</string>
+    <string name="primerosPasos">Premiers pas</string>
+    <string name="direccionServidor1">Pour définir l\'adresse du serveur, vous devez aller à la section Paramètres / Paramètres du serveur. \n\n Vous doit entrer soit l\'adresse IP de votre ordinateur serveur (peut être public ou privé) ou le FQDN et le port d\'écoute. \n In si la direction est besoin du public pour ouvrir les ports utilisés par l\'application sur le routeur. Nero utilise 30500 du port par défaut.</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">Les adresses IP publiques sont en constante évolution. Si vous ne disposez pas d\'un domaine public peut accéder à l\'application en utilisant le nom de domaine complet de l\'ordinateur du serveur. \n\n NO-IP est un service gratuit qui crée un FQDN pour votre ordinateur et met automatiquement à jour l\'adresse IP publique associée au nom de domaine complet.</string>
+    <string name="prioridad">Priorité</string>
+    <string name="prioridad1">L\'application permet un accès rapide par le biais d\'une notification persistante dans le menu déroulant de votre appareil mobile. Cette notification peut être configuré dans la section Paramètres / Notification. Valeur minimale \n\n A dans cette section supprimer la notification persistante. Valeur a proche du minimum que la notification ne sera visible que si le menu est affiché. le dernier \n\n La notification apparaîtra toujours. Valeur moyenne a affichera l\'application avec une priorité à proximité d\'autres applications. nA valeur maximale fera la demande toujours le premier à être affiché au-dessus du reste application.</string>
+    <string name="eliminacionYPrueba">Enlèvement et Test de connexion</string>
+    <string name="eliminacion">Élimination</string>
+    <string name="eliminacion1">Après avoir appuyé sur le mot de passe d\'accès au bouton de suppression sur le serveur d\'application vous sera demandé. Cela signifie que le mot de passe est réglé sur le serveur pour accéder à l\'application et il est demandé d\'enlever sont les mêmes. Ce mot de passe peut être modifié sur le serveur. \n\n Après être vérifié le serveur commencera à supprimer tous les fichiers sélectionnés. Une fois qu\'ils sont tous effacés seront remplis et de l\'espace disponible sur l\'ordinateur sera vide pour que vous ne pouvez pas récupérer les informations supprimées. Les barres de progression informeront le processus à tout moment.</string>
+    <string name="prueba">Test de connexion</string>
+    <string name="prueba1">Après avoir appuyé sur le bouton de test d\'accès par mot de passe de connexion à l\'application serveur vous demande. \n Le envoyé au serveur et vérifiez qu\'il est correct. Si vous avez une mauvaise connexion par l\'un des deux, il va essayer d\'informer autant de détails que possible.</string>
+</resources>

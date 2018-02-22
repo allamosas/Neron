@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">Nerón</string>
+    <string name="neron">Nerón</string>
+    <string name="probarConexion">Probar Conexión</string>
+    <string name="eliminar">Eliminar</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">Eliminación de Ficheros y Directorios</string>
+    <string name="sobreescrituraEspacioDisco">Sobreescritura de Espacio en Disco</string>
+    <string name="eliminacionSobreescritura">Eliminación de Sobreescritura</string>
+    <string name="eliminando">Eliminando ficheros y directorios...</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">Contraseña</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="probar">Probar</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">Toca para acceder a la aplicación</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">Ajustes</string>
+    <string name="conexion">Conexión</string>
+    <string name="direccionServidor">Dirección del Servidor</string>
+    <string name="ip">Dirección</string>
+    <string name="puerto">Puerto</string>
+    <string name="detallesDireccionServidor">Dirección del equipo en el que esté instalada la aplicación del servidor. IP o URL.</string>
+    <string name="detallesIP">Ej: 123.456.7.89 ó http://www.ejemplo.com</string>
+    <string name="ejemploIp">Ejemplo: 192.168.1.1</string>
+    <string name="ejemploPuerto">Ejemplo: 30500</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="notificacionPersistente">Notificación persistente</string>
+    <string name="notificacionDetalle">Prioridad de la notificación con la que se accede a la aplicación</string>
+    <string name="min">No mostrar</string>
+    <string name="max">Max</string>
+    <string name="ajustesguardados">Ajustes guardados</string>
+    <string name="direccionIncorrecta">Dirección del servidor incorrecta</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">Conexión Correcta</string>
+    <string name="conexionFallida">Conexión Fallida</string>
+    <string name="contrasenaIncorrecta">Contraseña Incorrecta</string>
+    <string name="malaConexionODireccion">Comprueba tu conexión a internet\ny la dirección del servidor</string>
+    <string name="conexionPerdida">Se ha perdido la conexión con el servidor</string>
+    <string name="datosCorruptos">Se han recibido datos corruptos</string>
+    <string name="timeout">Se ha excedido el tiempo de espera</string>
+    <string name="toastFallida">Oops! El servidor no responde. Por favor, revisa tu conexión a Internet y vuelva a intentarlo</string>
+    <string name="toastContrasenaIncorrecta">Se ha introducido una contraseña incorrecta</string>
+    <string name="toastMalaConexionODireccion">No se ha encontrado al servidor. Por favor, comprueba que tu conexión a internet y que la dirección del servidor son correctas</string>
+    <string name="toastCorruptos">Se han recibido datos corruptos del servidor. Asegúrate de tener una buena conexion a Internet</string>
+    <string name="toastConexionPerdida">Se ha producido un corte en la comunicación con el servidor. Aún así, el servidor continuará con el proceso</string>
+    <string name="toastTimeout">Se ha excedido el tiempo de espera del servidor. Revisa tu conexión y vuelve a intentarlo</string>
+    <string name="refused">El servidor ha rechazado la conexión</string>
+    <string name="toastRefused">Conexión rechazada por alcanzar el límite de contraseñas incorrectas. Prueba dentro de </string>
+    <string name="segundos"> segundos</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">Ayuda</string>
+    <string name="primerosPasos">Primeros Pasos</string>
+    <string name="direccionServidor1">Para establecer la dirección del servidor debes ir al apartado de Ajustes/Configuración del servidor.\n\nDebes introducir o bien la dirección IP de tu equipo servidor (puede ser pública o privada) o bien el FQDN y el puerto de escucha.\nEn caso de que la dirección sea pública deberás abrir los puertos utilizados por la aplicación en el router. Nerón usa por defecto el puerto 30500.</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">Las direcciones IP públicas cambian constantemente. Si no dispones de un dominio público puedes acceder a la aplicación mediante el FQDN del equipo servidor.\n\nNO-IP es un servicio gratuito que crea un FQDN para tu equipo y actualiza automáticamente la dirección IP pública a la dirección FQDN asociada.</string>
+    <string name="prioridad">Prioridad</string>
+    <string name="prioridad1">La aplicación permite el acceso rápido mediante una notificación persistente en el menú desplegable de tu dispositivo móvil. Ésta notificación puede ser configurada en el apartado Ajustes/Notificación.\n\nUn valor mínimo en este apartado quitará la notificación persistente.\n\nUn valor cercano al mínimo hará que la notificación sea visible únicamente si se despliega el menú. La notificación siempre aparecerá la última.\n\nUn valor medio hará que la aplicación se muestre con una prioridad cercana a la del resto de aplicaciones.\n\nUn valor máximo hará que la aplicación siempre se muestre la primera, por encima del resto de aplicaciones.</string>
+    <string name="eliminacionYPrueba">Eliminación y Prueba de conexión</string>
+    <string name="eliminacion">Eliminación</string>
+    <string name="eliminacion1">Tras pulsar el botón de eliminación se pedirá la contraseña de acceso a la aplicación del servidor. Es decir, la contraseña que se establece en el servidor para poder acceder a la aplicación y la que se pide para eliminar son la misma. Ésta contraseña puede ser modificada en el servidor.\n\nTras ser verificada el servidor comenzará a eliminar todos los archivos seleccionados. Una vez que estén todos borrados se llenará y se vaciará el espacio disponible en el equipo para que no se pueda recuperar la información eliminada. Las barras de progreso irán informando del proceso en todo momento.</string>
+    <string name="prueba">Prueba de conexión</string>
+    <string name="prueba1">Tras pulsar el botón de prueba de conexión se pedirá la contraseña de acceso a la aplicación del servidor.\nSe enviará al servidor y se comprobará que es correcta. En caso de que haya una mala conexión por parte de alguno de los dos, se tratará de informar con el mayor detalle posible.</string>
+</resources>

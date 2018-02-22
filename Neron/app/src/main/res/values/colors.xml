@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rojo">#ce3b29</color>
+    <color name="rojoOscuro">#982E20</color>
+    <color name="grisOscuro">#2a2a2a</color>
+    <color name="blanco">#fff</color>
+
+    <color name="tituloAjustes">#aaa</color>
+    <color name="detalleAjustes">#ccc</color>
+    <color name="elementoAjustes">#fff</color>
+    <color name="separadorAjustes">#777</color>
+    <color name="hintAjustes">#999</color>
+
+    <color name="tituloAyuda">#555</color>
+    <color name="detalleAyuda">#333</color>
+    <color name="elementoAyuda">#000</color>
+    <color name="separadorAyuda">#777</color>
+
+</resources>

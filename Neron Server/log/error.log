@@ -1,0 +1,33 @@
+2016-05-30 11:10:23,678   ERROR - No se encuentra theme.properties en getPropTema() - (Configuration) .\conf\theme.properties (El sistema no puede encontrar la ruta especificada)
+2016-05-30 11:10:23,787   ERROR - No se encuentra language.properties en getPropIdioma() - (Configuration) .\conf\language.properties (El sistema no puede encontrar la ruta especificada)
+2016-05-30 11:12:22,147   ERROR - No se ha encontrado la imagen square-icon.png en ajustarWidth() - (MenuPrincipal) Can't read input file!
+2016-05-30 11:24:41,467   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-30 15:10:43,381   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-30 15:28:30,627   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-31 10:37:56,640   ERROR - Excepción general en reiniciar() - (Opciones) Cannot run program "Neron.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2016-05-31 11:36:03,354   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:39:54,553   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:40:32,711   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:44:52,849   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:45:07,781   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:56:26,248   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-31 11:56:31,374   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:56:39,741   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:56:45,014   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:56:47,458   ERROR - Excepción general en reiniciar() - (Opciones) Cannot run program "Neron.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2016-05-31 11:56:57,518   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:57:38,178   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 11:57:44,059   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 15:57:07,362   ERROR - No se encuentra theme.properties en getPropTema() - (Configuration) .\conf\theme.properties (El sistema no puede encontrar la ruta especificada)
+2016-05-31 15:57:07,512   ERROR - No se encuentra language.properties en getPropIdioma() - (Configuration) .\conf\language.properties (El sistema no puede encontrar la ruta especificada)
+2016-05-31 15:57:45,277   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 16:20:15,105   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-31 16:24:02,371   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-31 16:24:50,930   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-31 16:30:51,175   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-31 16:40:35,167   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión
+2016-05-31 16:49:06,629   ERROR - Error en la escucha del servidor en run() - (Servidor) Address already in use: JVM_Bind
+2016-05-31 16:49:07,635   ERROR - Excepción general en reiniciar() - (Opciones) Cannot run program "Neron.exe": CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+2016-09-23 10:52:23,465   ERROR - No se encuentra theme.properties en getPropTema() - (Configuration) .\conf\theme.properties (El sistema no puede encontrar la ruta especificada)
+2016-09-23 10:52:24,359   ERROR - No se encuentra language.properties en getPropIdioma() - (Configuration) .\conf\language.properties (El sistema no puede encontrar la ruta especificada)
+2016-10-07 09:31:59,344   ERROR - La aplicación no se cerró adecuadamente durante la anterior sesión

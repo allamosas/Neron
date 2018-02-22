@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<toc version="1.0">
+   <tocitem text="帮助" target="principal">
+      <tocitem text="工具菜单" target="herramientas"/>
+      <tocitem text="选项菜单" target="opciones"/>
+      <tocitem text="服务器配置" target="configuracion"/>
+   </tocitem>
+</toc>

@@ -1,0 +1,74 @@
+<resources>
+    <!--Principal-->
+    <string name="app_name">尼禄</string>
+    <string name="neron">尼禄</string>
+    <string name="probarConexion">测试连接</string>
+    <string name="eliminar">清除</string>
+
+    <!--Eliminacion de ficheros y directorios-->
+    <string name="eliminacionFicheros">删除文件和目录</string>
+    <string name="sobreescrituraEspacioDisco">覆盖磁盘空间</string>
+    <string name="eliminacionSobreescritura">覆盖消除</string>
+    <string name="eliminando">删除文件和目录...</string>
+
+    <!--PopUp-->
+    <string name="ayudaPassword">密码</string>
+    <string name="aceptar">接受</string>
+    <string name="cancelar">取消</string>
+    <string name="probar">尝试</string>
+
+    <!--Notificación y Drawer-->
+    <string name="detalleNotificacion">触摸访问应用程序</string>
+    <string name="drawer_open">drawer_open</string>
+    <string name="drawer_close">drawer_close</string>
+
+    <!--Ajustes-->
+    <string name="ajustes">设置</string>
+    <string name="conexion">连接</string>
+    <string name="direccionServidor">服务器地址</string>
+    <string name="ip">地址</string>
+    <string name="puerto">端口</string>
+    <string name="detallesDireccionServidor">在其上安装的服务器应用程序的计算机的地址。 IP或FQDN。</string>
+    <string name="detallesIP">例子: 123.456.7.89 , http://www.ejemplo.com</string>
+    <string name="ejemploIp">例子: 192.168.1.1</string>
+    <string name="ejemploPuerto">例子: 30500</string>
+    <string name="notificaciones">通知</string>
+    <string name="notificacionPersistente">永久通知</string>
+    <string name="notificacionDetalle">优先通知与访问应用程序</string>
+    <string name="min">不显示</string>
+    <string name="max">最大</string>
+    <string name="ajustesguardados">保存的设置</string>
+    <string name="direccionIncorrecta">服务器地址不正确</string>
+
+    <!--Resultado Conexión-->
+    <string name="conexionCorrecta">正确的连接</string>
+    <string name="conexionFallida">连接失败</string>
+    <string name="contrasenaIncorrecta">密码不正确</string>
+    <string name="malaConexionODireccion">请检查您的网络连接和服务器地址</string>
+    <string name="conexionPerdida">它已经失去了与服务器的连接</string>
+    <string name="datosCorruptos">已经有损坏的数据</string>
+    <string name="timeout">它已超过超时</string>
+    <string name="toastFallida">哎呀！该服务器没有响应。请检查您的Internet连接，然后再试一次</string>
+    <string name="toastContrasenaIncorrecta">它输入了不正确的密码</string>
+    <string name="toastMalaConexionODireccion">它尚未发现到服务器。请检查您的网络连接和服务器地址它们是正确的</string>
+    <string name="toastCorruptos">已经出现了损坏的数据服务器。确保你有一个良好的互联网连接</string>
+    <string name="toastConexionPerdida">有与服务器的通信中断。尽管如此，服务器将继续这一进程</string>
+    <string name="toastTimeout">超过超时服务器。检查您的连接，然后再试一次</string>
+    <string name="refused">服务器拒绝连接</string>
+    <string name="toastRefused">通过连接不正确深远密码的限制拒绝。内测试</string>
+    <string name="segundos">秒</string>
+
+    <!--Ayuda-->
+    <string name="ayuda">帮助</string>
+    <string name="primerosPasos">第一步</string>
+    <string name="direccionServidor1">要设置服务器地址你必须去节设置/服务器设置。您必须输入您的服务器计算机的IP地址（可以是公共或私有的）或FQDN和监听端口。如果地址是公共需要打开路由器上的应用程序所使用的端口。尼禄使用默认端口30500。</string>
+    <string name="FQDN">FQDN</string>
+    <string name="FQDN1">公共IP地址是不断变化的。如果你没有一个公共领域可以访问使用服务器计算机的FQDN的应用程序。 NO-IP是为您的计算机创建一个FQDN，并自动更新与FQDN相关联的公共IP地址的免费服务。</string>
+    <string name="prioridad">优先</string>
+    <string name="prioridad1">该应用程序允许通过从移动设备的下拉菜单中永久通知快速访问。此通知可以在设置/通知部分进行配置。\n\n在本节中的最小值删除永久通知。\n\n接近最低通知的值将是可见只有在显示菜单。通知总是最后出现。\n\n 平均值将显示附近的其它应用程序优先级应用。\n\n 最大值将总是第一个应用程序上方的其他应用显示。</string>
+    <string name="eliminacionYPrueba">拆卸和连接测试</string>
+    <string name="eliminacion">消除</string>
+    <string name="eliminacion1">按下删除键访问密码到应用服务器后，您会被问到。即，设置了密码到服务器来访问应用程序，并要求删除是相同的。此密码可以在服务器上被改变。\n\n 被验证后，服务器将开始删除所有选定的文件。一旦他们都被删除将被填充，并在计算机上的可用空间将是空的，你不能恢复已删除的信息。进度条会在任何时候通知的过程。</string>
+    <string name="prueba">连接测试</string>
+    <string name="prueba1">按服务器应用程序的测试按钮连接密码后访问您所问。\n它将被发送到服务器，并验证它的正确性。如果您有任何两者的连接不良，它会尝试告知尽量详细越好。</string>
+</resources>
